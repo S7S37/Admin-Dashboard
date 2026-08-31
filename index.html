@@ -8,20 +8,37 @@
 </head>
 <body>
     <div class="container">
-        <header class="body-header">header
+        <header class="body-header">
             <div class="header-upper">
-                <div class="search">
-                    <form action="" method="post" >
-                        <input type="search">
-                    </form>
+                <div class="search-container">
+                    <button form="search-form">
+                    <img class="icon" src="./icons/magnify.svg" alt="">
+                    </button>
+                    <div class="search">
+                        <form id="search-form" action="" method="get" >
+                            <label for="search-input">Search</label>
+                            <input id="search-input" name="search" type="search">
+                        </form>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <img class="icon" src="./icons/bell-ring-outline.svg" alt="">
+                    <img src="./pictures/images (2).jpg" alt="">
+                    <h3>Some Name</h3>
                 </div>
             </div>
             <div class="header-lower">
-                <div class="user-info"></div>
+                <div class="user-greeting">
+                    <img src="./pictures/images (2).jpg" alt="">
+                    <div class="user-greeting-text">
+                        <p>hey there,</p>
+                        <h3>Some Name (@cool-handel)</h3>
+                    </div>
+                </div>
                 <div class="header-lower-buttons">
-                    <button></button>
-                    <button></button>
-                    <button></button>
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
                 </div>
             </div>
         </header>
