@@ -29,8 +29,8 @@ header.body-header{
 
 .header-upper{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40vw;
+    grid-template-columns: 2fr 1fr;
+    gap: 30vw;
 
 }
 
